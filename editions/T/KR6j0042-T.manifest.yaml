@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6j0042/T/v1
+canonical_location: https://kanripo.org/bkk/KR6j0042/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 蓮華部心念誦儀軌
+  identifiers:
+    krp: KR6j0042
+    cbeta: T18n0875
+    cbeta_old_id: T18n0875
+    authorityid: CA0002047
+    json_key: T0875
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T18/T18n0875.xml
+    old_id: T18n0875
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0042_000-T.yaml, hash: 'sha256:8eea4722523fefb93c24d34b114a447538b99c24f84297c9550b936a5153166b'}
+  - {seq: 1, filename: KR6j0042_001-T.yaml, hash: 'sha256:178a239d29eb381981413d7f53ee1042a0ac5903927c97f2fa670939928cc267'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0042_000-T.markers.yaml, hash: 'sha256:894432510a22491d140e3b5896807a58b2b60d5733b8bc8a48059141b74fede8'}
+  - {seq: 1, role: markers, filename: assets/KR6j0042_001-T.markers.yaml, hash: 'sha256:9101bb11d1453508418e9a325521ebc30d1f7486a79a2795988089b7ce7d4ea6'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0042_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 595
+  label: 蓮華部心念誦儀軌
+  type: juan
+  level: 1
+hash: sha256:344dcf9f4e27c02d91fd385cf523cddb97a46092a15ea984771c0b1021ce777e

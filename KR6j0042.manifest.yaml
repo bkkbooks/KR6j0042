@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6j0042/v1
+canonical_location: https://kanripo.org/bkk/KR6j0042/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 蓮華部心念誦儀軌
+  identifiers:
+    alt_id:
+    - T18n0875
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T18/T18n0875.xml
+    old_id: T18n0875
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0042_000.yaml, hash: 'sha256:8eea4722523fefb93c24d34b114a447538b99c24f84297c9550b936a5153166b'}
+  - {seq: 1, filename: KR6j0042_001.yaml, hash: 'sha256:dc0acca66c680c41ccfcfa68fe55d1d45ec875859d3fadea767a4ac2736b7a6d'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0042_001.markers.yaml, hash: 'sha256:e10891ac4b96ed25af8b9d5e9ec68b7ac02a7c2bae5e02a60433d5dc30f38905'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0042_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 595
+  label: 蓮華部心念誦儀軌
+  type: juan
+  level: 1
+hash: sha256:7f88ce54f44c560a97860aab31692d685cbcc7c20c3b9a6187e7dcacc483bcab
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
